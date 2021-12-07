@@ -105,7 +105,7 @@ OUTPUT="output"
 BASENAME=$(basename -s .csv "$1")        # remove extension
 COUNTER=1
 HEADER='_____header.csv'
-CONTENT=''_____content.csv''
+CONTENT='_____content.csv'
 
 # create output dir and temporary dir
 mkdir $OUTPUT
